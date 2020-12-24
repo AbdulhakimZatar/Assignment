@@ -20,6 +20,7 @@
       width: 100%;
       height: 8em;
       bottom: 0;
+      z-index: -1;
     }
 
     #page-container {
@@ -67,6 +68,7 @@
       justify-content: center;
       align-items: center;
       width: 25%;
+      z-index: 99;
     }
 
     @media (max-width: 768px) {
@@ -88,7 +90,7 @@
         <div class="flexCenter">
           <form class="container">
             <input class="input" type="text" name="username" placeholder="Username">
-            <input class="input" type="password" name="username" placeholder="Passowrd">
+            <input class="input" type="password" name="password" placeholder="Password">
             <button id="btn">Login</button>
           </form>
         </div>
